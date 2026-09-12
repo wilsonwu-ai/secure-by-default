@@ -1,0 +1,25 @@
+{
+  "name": "secure-by-default",
+  "owner": {
+    "name": "Wilson Wu",
+    "url": "https://github.com/wilsonwu-ai"
+  },
+  "metadata": {
+    "description": "Security skills for AI coding agents, derived from google/mantis, PhonePe/mantis and the MantisBT CVE history.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "secure-by-default",
+      "source": "./",
+      "description": "Two skills: secure-by-default (catches insecure contracts and signatures that omit the actor, plus severity calibration) and mantis-eli5 (explains Google's Mantis security toolkit and its 21 skills).",
+      "version": "0.1.0",
+      "license": "MIT",
+      "strict": false,
+      "skills": [
+        "./skills/secure-by-default",
+        "./skills/mantis-eli5"
+      ]
+    }
+  ]
+}

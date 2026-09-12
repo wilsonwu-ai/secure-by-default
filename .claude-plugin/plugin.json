@@ -1,0 +1,22 @@
+{
+  "name": "secure-by-default",
+  "version": "0.1.0",
+  "description": "Security skills for AI coding agents. Targets the failure a vulnerability checklist does not cover: faithfully implementing an insecure contract. Plus severity calibration and an explainer for Google's Mantis toolkit.",
+  "author": {
+    "name": "Wilson Wu",
+    "url": "https://github.com/wilsonwu-ai"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/wilsonwu-ai/secure-by-default",
+  "repository": "https://github.com/wilsonwu-ai/secure-by-default",
+  "keywords": [
+    "security",
+    "secure-coding",
+    "authorization",
+    "threat-modeling",
+    "code-review",
+    "appsec",
+    "mantis"
+  ],
+  "skills": "./skills/"
+}
